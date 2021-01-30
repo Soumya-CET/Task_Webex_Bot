@@ -5,7 +5,7 @@ import json
 
 app = Flask(__name__)
 
-headers = {'Content-Type':'application/json', 'Authorization':'Bearer NTVlYTY2NGQtMDM3ZC00OTUzLThmNTctNWY1NDc0ZmMwNjYxMWVmZWU2ZjktYTIw_PF84_consumer'}
+headers = {'Content-Type':'application/json', 'Authorization':'Bearer keep_token_here'}
 
 @app.route('/reply', methods=['GET', 'POST'])
 def reply():
